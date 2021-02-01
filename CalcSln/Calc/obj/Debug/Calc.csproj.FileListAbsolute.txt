@@ -1,0 +1,1 @@
+c:\users\user\documents\visual studio 2013\Projects\CalcSln\Calc\bin\Debug\Calc.exe.config

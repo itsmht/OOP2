@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\bin\Debug\Basic.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\bin\Debug\Basic.exe
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\bin\Debug\Basic.pdb
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\obj\Debug\Basic.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\obj\Debug\Basic.exe
+c:\users\user\documents\visual studio 2013\Projects\Basic\Basic\obj\Debug\Basic.pdb

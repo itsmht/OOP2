@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\bin\Debug\Basic_Code.exe.config
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\bin\Debug\Basic_Code.exe
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\bin\Debug\Basic_Code.pdb
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\obj\Debug\Basic_Code.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\obj\Debug\Basic_Code.exe
+c:\users\user\documents\visual studio 2013\Projects\Basic_CodeSln\Basic_Code\obj\Debug\Basic_Code.pdb
