@@ -10,7 +10,7 @@ namespace Array_Prob1
     {
         static void Main(string[] args)
         {
-            int n, sum = 0;
+            int n, sum = 0,count=0;
             int[] a = new int[100];
 
             Console.WriteLine("Please Insert Array Length: ");
@@ -58,25 +58,41 @@ namespace Array_Prob1
             {
                 for (int j = i + 1; j < n; j++)
                 {
-                    if (a[i] == a[j])
-                    {
-                        Console.WriteLine("Duplicate Number : "+a[j]);
-                        Console.WriteLine(a.Count());
-                    }
+                    if (a[j] == a[i])
+                        Console.WriteLine("Duplicated Numbers : "+ a[j]);
                 }
             }
+
+
+
             //Unique
             for (int i = 0; i < n; i++)
             {
-                for (int j = i + 1; j < n; j++)
+                count = 0;
+                for (int j = 0; j < n + 1; j++)
                 {
-                    if (a[i] != a[j])
+                    if (i != j)
                     {
-                        Console.WriteLine("Unique Number : " + a[j]);
-
+                        if (a[i] == a[j])
+                        {
+                            count++;
+                           
+                            
+                        }
                     }
                 }
+                
+                
+                if (count == 0)
+                {
+                    
+                    Console.WriteLine("Unique Numbers: " + a[i]);
+                }
             }
+            
+            
+            
+            
 
 
         }
