@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class Savings:Account
+    class OverDraft:Account
     {
-        private int minBalance = 430;
-        public Savings()
+        private int limit = 50000;
+        public OverDraft()
         {
 
         }
-        public Savings(int accountID, string accountName, int balance) : base(accountID, accountName, balance)
+        public OverDraft(int accountID, string accountName, int balance) : base(accountID, accountName, balance)
         {
-
+            base.accB = balance + limit;
         }
         public void Transfer(int amount, Account acc)
         {
-            if ((base.accB - amount) >= minBalance)
+            if ((base.accB) >= amount)
                 base.Transfer(amount, acc);
             else
                 Console.WriteLine("Insufficient Balance."); 
